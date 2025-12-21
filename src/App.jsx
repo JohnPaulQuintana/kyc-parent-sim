@@ -306,12 +306,12 @@ export default function App() {
                     <h3 className="font-semibold text-lg">
                       Captured Documents
                     </h3>
-                    <button
+                    {/* <button
                       onClick={handleDownloadImages}
                       className="p-2 bg-slate-700 rounded flex items-center justify-center"
                     >
                       <Download size={16} />
-                    </button>
+                    </button> */}
                   </div>
                   <div className="grid gap-4 md:gap-5 lg:grid-cols-3">
                     {["Front", "Back", "Other"].map((label, idx) => (
