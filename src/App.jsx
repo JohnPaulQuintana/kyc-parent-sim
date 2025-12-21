@@ -144,7 +144,7 @@ export default function App() {
           </div>
 
           {/* Status */}
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-4 items-center hidden">
             <div className="flex flex-col gap-1">
               <span className="text-xs uppercase tracking-wider text-slate-400">
                 Status
