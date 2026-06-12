@@ -241,13 +241,14 @@ export default function App() {
             {!isMobile && (
               <span className="flex items-center gap-2 px-2 py-1 bg-slate-700 rounded-full text-slate-300 text-sm md:text-base">
                 <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                https://tiger07.live
+                https://kyc.levidyo.com
               </span>
             )}
           </div>
           <iframe
             ref={iframeRef}
-            src="https://tiger07.live"
+            // src="https://tiger07.live"
+            src="https://kyc.levidyo.com"
             title="KYC iframe"
             allow="camera; microphone"
             className="w-full h-[calc(100vh-8rem)] md:h-[calc(100vh-6rem)] border-none"
@@ -255,7 +256,7 @@ export default function App() {
           {isMobile && (
             <div className="flex items-center justify-center gap-2 p-2 bg-slate-700 text-slate-300 text-sm">
               <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
-              https://tiger07.live
+              https://kyc.levidyo.com
             </div>
           )}
         </section>
