@@ -250,7 +250,7 @@ export default function App() {
             src="https://tiger07.live"
             title="KYC iframe"
             allow="camera; microphone"
-            className="w-full h-[calc(100vh-4rem)] md:h-[calc(100vh-6rem)] border-none"
+            className="w-full h-[calc(100vh-8rem)] md:h-[calc(100vh-6rem)] border-none"
           />
           {isMobile && (
             <div className="flex items-center justify-center gap-2 p-2 bg-slate-700 text-slate-300 text-sm">
